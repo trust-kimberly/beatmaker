@@ -16,25 +16,36 @@ body {
     align-items: center;
 }
 
+header {
+    position: absolute;
+    z-index: 1;
+}
+
 header h1 {
-    margin: 50px 0px 30px 0px;
+    margin-top: 40vh;
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke-color: teal;
+    -webkit-text-stroke-width: 2px;
+
 }
 
 header p {
-    font-size: 20px;
+    color: #006666;
+    font-size: 25px;
     text-align: center;
 }
 
 .pads {
     background: lightblue;
+    height: 100vh;
     width: 100vw;
     display: flex;
 }
 
 .pads > div {
-    height: 70vh;
+    height: 100vh;
     width: 100px;
     flex: 1;
 }
